@@ -40,7 +40,7 @@ register(
 register(
     id="maze-random-3x3-v0",
     entry_point="gym_maze.envs:MazeEnvRandom3x3",
-    max_episode_steps=10,
+    max_episode_steps=100,
     nondeterministic=True,
 )
 
